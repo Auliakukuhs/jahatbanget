@@ -48,6 +48,7 @@ class HomeController extends FrontController
 	 */
 	public function index()
 	{
+		// dd($this);
 		$data = [];
 		
 		// Get all homepage sections
@@ -80,7 +81,7 @@ class HomeController extends FrontController
 		
 		// Get SEO
 		$this->setSeo();
-		
+		// dd($data);
 		return view('home.index', $data);
 	}
 	
