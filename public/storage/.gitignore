@@ -1,6 +1,0 @@
-.quarantine/
-.tmb/
-app/logo/*
-app/categories/custom/*
-files/*
-!.gitignore
