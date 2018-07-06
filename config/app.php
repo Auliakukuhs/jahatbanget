@@ -173,6 +173,10 @@ return [
 		Larapen\Feed\FeedServiceProvider::class,
 		Larapen\Impersonate\ImpersonateServiceProvider::class,
 		Jackiedo\DotenvEditor\DotenvEditorServiceProvider::class,
+
+        // Lara Debugbar
+        Barryvdh\Debugbar\ServiceProvider::class,
+
     
     
     ],
@@ -231,6 +235,9 @@ return [
         'TextToImage' => Larapen\TextToImage\Facades\TextToImage::class,
 		'DotenvEditor' => Jackiedo\DotenvEditor\Facades\DotenvEditor::class,
         'Alert' => 'Prologue\Alerts\Facades\Alert',
+
+        // Lara debugbar
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
     
     
     ],
